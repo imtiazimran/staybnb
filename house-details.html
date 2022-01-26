@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>house-Details page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav id="navBar" class="navbar-white">
+        <a href="index.html"><img src="img/logo-red.png" class="logo" alt=""></a>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Popular places</a></li>
+            <li><a href="listing.html">Travel Outside</a></li>
+            <li><a href="house-details.html">Online Packages</a></li>
+        </ul>
+        <a href="#" class="registar-btn">Register Now</a>
+        <i class="fas fa-bars" onclick="togglebtn()"></i>
+    </nav> 
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Wenge House</h1>
+            <div class="row">
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <span>222 Reviews</span>
+                </div>
+                <p>Location: San 
+                Fransisco, California, United States</p>
+                
+            </div>
+        </div>
+        <div class="gallary">
+            <div class="gallary-img-1"><img src="img/house-1.png"></div>
+            <div><img src="img/house-2.png"></div>
+            <div><img src="img/house-3.png"></div>
+            <div><img src="img/house-4.png"></div>
+            <div><img src="img/house-5.png"></div>
+        </div>
+        <div class="small-details">
+            <h2>Entire rental unit hosted by Brandon</h2>
+            <p>2Guest / 2Beds / 1Bathroom</p>
+            <h4>$100 <span>/day</span></h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label for="input">Check-in</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div>
+                <label for="input">Check-out</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div class="guest-field">
+                <label for="input">Guest</label>
+                <input type="text" placeholder="Add guest">
+            </div>
+            <button type="submit">Check Availability</button>
+        </form>
+
+        <ul class="details-list">
+            <li><i class="fas fa-home"></i>Entire Home
+                <span>You will have the entire flat for you.</span>
+            </li>
+            <li><i class="fas fa-paint-brush"></i>Enhanced Clean 
+                <span>This host has committed to staybnb's cleaning process.</span>
+            </li>
+            <li><i class="fas fa-map-marker-alt"></i>Great Location
+                <span>90% of recent guests gave the location a 5 star rating.</span>
+            </li>
+            <li><i class="fab fa-gratipay"></i>Great Check-in Experience
+                <span>100% of recent guests gave the ckeck0in process a 5 star rating.</span>
+            </li>
+        </ul>
+
+        <hr class="line">
+        <p class="home-desc">Geusts will be allocated on the ground floor according to abailability. You get a comfortable Tow bedroom apartment has a true city feeling. The price quoted is for tow guest, at the guest slot please mark the number of guests to get the exact price for groups. Geusts will be allocated on the ground floor according to abailability. You get a comfortable Tow bedroom apartment has a true city feeling. </p>
+        <hr class="line">
+
+        <div class="map">
+            <h3>Location on map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1090.1726616400852!2d-122.45108535649646!3d37.76930901729435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808587523263e125%3A0x694ba8bc729eb034!2sCitrus%20Club!5e1!3m2!1sen!2sbd!4v1643054854751!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <b>San Fransisco, California, United States</b>
+            <p>it's like a home away from home</p>
+        </div>
+        <hr class="line">
+        <div class="host">
+            <img src="img/host.png" alt="">
+            <div>
+                <h2>Hosted by Brandon</h2>
+                <p><span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </span>&nbsp; &nbsp; 222 Reviews &nbsp; &nbsp; Response rate 100% &nbsp; &nbsp; Response time: 60min </p>
+            </div>
+        </div>
+        <a href="#" class="contact-host">Contact Host</a>
+    </div>
+<div class="container">
+    <div class="footer">
+        <a href="https://www.facebook.com/rbimran0"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/imran080"><i class="fab fa-instagram"></i></a>
+        <hr>
+        <p>Copyright &copy; 2022, Easy Tutoriels.</p>
+        
+    </div>
+</div>
+<script>
+    var navBar = document.querySelector(".navbar-white");
+
+        
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu")
+    }
+</script>
+</body>
+</html>
